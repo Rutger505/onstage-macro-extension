@@ -12,7 +12,6 @@
 ## Project Structure
 
 ```text
-extension/
 ├── src/
 │   ├── popup/
 │   │   ├── index.html
@@ -33,7 +32,6 @@ extension/
 ## Setup
 
 ```bash
-mkdir extension && cd extension
 bun init -y
 bun add react react-dom webextension-polyfill
 bun add -d @types/react @types/react-dom @types/webextension-polyfill
